@@ -1,0 +1,11 @@
+{
+  "plugins": ["html-validate-vue"],
+  "elements": ["html5"],
+  "transform": {
+    "^.*\\.vue$": "html-validate-vue"
+  },
+  "rules": {
+    "no-dup-id": "error",
+    "id-pattern": ["error", { "pattern": "kebabcase" }]
+  }
+}
