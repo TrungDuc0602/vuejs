@@ -19,6 +19,12 @@ npm run build
 ```
 npm run lint
 ```
+```
+
+### run rule
+```
+html-validate --ext vue src
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
